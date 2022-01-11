@@ -1,0 +1,74 @@
+.homeheading-2 {
+    font-size: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #1E90FF;
+}
+
+.homeheading-1 {
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.linkedinlink {
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.searchbar {
+    width: 208px;
+    height: 40px;
+    margin-top: -2.5px;
+    margin-right: 45px;
+}
+
+.form{
+    margin-top: 85px;
+    margin-left: 6rem;
+    font-size: 28px;
+}
+
+.savebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 52px;
+    margin-top: -8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    background: #1E90FF;
+}
+
+.requestcontainer {
+    margin-top: 76px;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: Start;
+    width: 90%;
+    height: 363px;
+    background: #0081FF;
+    color: #ffffff;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 48px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.requestcontainerheading {
+    font-size: 38px;
+    font-weight: 800;
+    
+    margin-bottom: 38px;
+    margin-left: 108px;
+}
+
+.requestcontainerparagraph {
+    font-size: 20px;
+    margin-left: 108px;
+    text-align: start;
+    line-height: 32px;
+}

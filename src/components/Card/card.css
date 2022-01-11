@@ -1,0 +1,133 @@
+.maincardcontainer {
+    width: 90%;
+    margin-top: 78px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-left: 8.5rem;
+}
+
+.cardheading-2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cardparagraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    font-family: 'Open Sans', sans-serif;   
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.cardgroup {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.cardimage {
+    width: 80%;
+    height: 200px;
+}
+
+.cardhead {
+    margin-top: 17px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.subhead {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1E90FF;
+}
+
+.requestbutton {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    background: #1E90FF;
+}
+
+.modal {
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modalcontent {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modalheading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    margin-top: 20px;
+}
+
+.modalparagraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.513);
+    margin-bottom: 20px;
+}
+
+.textarea1 {
+    width: 70%;
+    height: 300px;
+    border: 2px solid #1E90FF;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.requestbutton1 {
+    display: flex;
+    width: 15%;
+    margin-right: 123px;
+    align-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    background: #1E90FF;
+}
+
+/* The Close Button */
