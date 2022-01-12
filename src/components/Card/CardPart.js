@@ -82,6 +82,64 @@ const CardPart = () => {
                         </Button>
                     </div>
                 </div>
+                <div className='jobgroup'>
+                    <div className='card'>
+                        <img
+                            alt=""
+                            src={CardImage}
+                            width="58"
+                            height="58"
+                            className="d-inline-block align-center cardimage"
+                        />
+                        <h1 className='cardhead'>Anthropic</h1>
+                        <p className='subhead'>Senior Security <br /> Engineer</p>
+                        <Button className="requestbutton" variant="primary" onClick={() => setShowModal("d-block") }>
+                            Request Intro
+                        </Button>
+                    </div>
+                    <div className='card'>
+                        <img
+                            alt=""
+                            src={CardImage}
+                            width="58"
+                            height="58"
+                            className="d-inline-block align-center cardimage"
+                        />
+                        <h1 className='cardhead'>Anthropic</h1>
+                        <p className='subhead'>Senior Security <br /> Engineer</p>
+                        <Button className="requestbutton" variant="primary" onClick={() => setShowModal("d-block")} >
+                            Request Intro
+                        </Button>
+                    </div>
+                    <div className='card'>
+                        <img
+                            alt=""
+                            src={CardImage}
+                            width="58"
+                            height="58"
+                            className="d-inline-block align-center cardimage"
+                        />
+                        <h1 className='cardhead'>Anthropic</h1>
+                        <p className='subhead'>Senior Security <br /> Engineer</p>
+                        <Button className="requestbutton" variant="primary" onClick={() => setShowModal("d-block")} >
+                            Request Intro
+                        </Button>
+                    </div>
+                    <div className='card'>
+                        <img
+                            alt=""
+                            src={CardImage}
+                            width="58"
+                            height="58"
+                            className="d-inline-block align-center cardimage"
+                        />
+                        <h1 className='cardhead'>Anthropic</h1>
+                        <p className='subhead'>Senior Security <br /> Engineer</p>
+                        <Button className="requestbutton" variant="primary" onClick={() => setShowModal("d-block")} >
+                            Request Intro
+                        </Button>
+                    </div>
+                </div>
                 <div id="myModal" className={`modal ${showModal}`}>
                     <div className="modalcontent">
                         <h3 className="modalheading">Note for Ever Team</h3>
